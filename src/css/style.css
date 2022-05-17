@@ -4,18 +4,22 @@
  }
  
  .container_all {
-     background-image: url(./src/img/fundo.png);
+     background-image: url(../img/fundo.jpg);
+     background-repeat: no-repeat;
+     background-attachment: scroll;
+     background-size: cover;
  }
  
  .topo {
-     background-color: grey;
+     background-color: #9e90906b;
      display: flex;
      justify-content: space-around;
      align-items: center;
+     backdrop-filter: blur(1px);
  }
  
  .logo {
-     width: 180px;
+     width: 100px;
  }
  
  .menu {
@@ -24,4 +28,9 @@
  
  .menu li {
      padding: 5px;
+ }
+ 
+ h1 {
+     text-align: center;
+     color: #fff
  }
