@@ -1,0 +1,27 @@
+ * {
+     text-decoration: none;
+     list-style: none;
+ }
+ 
+ .container_all {
+     background-image: url(./src/img/fundo.png);
+ }
+ 
+ .topo {
+     background-color: grey;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+ 
+ .logo {
+     width: 180px;
+ }
+ 
+ .menu {
+     display: flex;
+ }
+ 
+ .menu li {
+     padding: 5px;
+ }
